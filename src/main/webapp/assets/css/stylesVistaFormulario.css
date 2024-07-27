@@ -1,0 +1,64 @@
+html, body {
+  height: 100%; 
+  margin: 0; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1; 
+}
+
+footer{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	margin-bottom: 0;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.firmaTxt{
+	color: #acacac;
+}
+
+.firmaTxt, p{
+	margin: 0;
+	
+	padding: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #acacac;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+	
+}
+
+li:hover{
+	text-decoration: underline;
+}
+
+ul, li, a:hover{
+	color: #d6d6d6;
+	
+}
+
+ul, li{
+	
+	list-style: none;
+}
+
+.contenedor-form{
+	margin-top:30px;
+	margin-bottom:50px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border: none;
+	border: 2px solid rgb( 61, 102, 137);
+	border-radius: 20px;
+}

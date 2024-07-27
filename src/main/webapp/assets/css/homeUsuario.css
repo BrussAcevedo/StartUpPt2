@@ -1,0 +1,55 @@
+@charset "UTF-8";
+h1{
+	font-size: 20px
+}
+
+.txt-color2{
+	color: blue;
+}
+
+.bienvenida-Txt h1 a{
+	text-decoration: none;
+}
+
+.bienvenida-Txt h1 a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 18px;
+	color: rgb( 61, 102, 137);
+
+}
+
+.contenedor-contenido{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border: none;
+	border: 2px solid rgb( 61, 102, 137);
+	border-radius: 20px;
+}
+
+
+.boton-usuario{
+	background: #34bbd9;
+	border-radius: 25px;
+	border:none;
+}
+
+.boton-usuario:hover{
+	background: aqua;
+	
+	box-shadow: 10px 10px 10px 10px rgba(103, 178, 255, 0.5);
+}
+
+
+.btn:focus, .btn:active {
+    outline: none; 
+    box-shadow: none; 
+    background-color: #34bbd9; 
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+

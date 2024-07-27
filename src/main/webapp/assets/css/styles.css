@@ -1,0 +1,60 @@
+ 
+
+html,body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: column;
+      
+}
+
+.margen-navBar {
+	margin-left: 100px;
+}
+.container {
+    flex: 1;
+}
+
+footer{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	    margin-top: auto;
+      display: table;
+     width: 100%;
+      height: 25vh;
+}
+
+.firmaTxt{
+	color: #acacac;
+}
+
+.firmaTxt, p{
+	margin: 0;
+	
+	padding: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #acacac;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+	
+}
+
+li:hover{
+	text-decoration: underline;
+}
+
+ul, li, a:hover{
+	color: #d6d6d6;
+	
+}
+
+ul, li{
+	
+	list-style: none;
+}

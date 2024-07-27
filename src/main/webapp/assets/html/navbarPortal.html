@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+	<div class="container-fluid">
+		<a class="navbar-brand ms-4 me-3" href="#">LOGO</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+			data-bs-target="#navbarNav" aria-controls="navbarNav"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon "></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav me-auto mx-2">
+				<li class="nav-item"><a class="nav-link active mx-2"
+					aria-current="page" href="#">Inicio</a></li>
+				<li class="nav-item mx-2"><a class="nav-link" href="#">Control
+						Asistencia</a></li>
+
+				<li class="nav-item mx-2"><a class="nav-link" href="#">Agenda</a>
+				</li>
+				<li class="nav-item mx-2"><a class="nav-link" href="#">Documentos</a>
+				</li>
+				<li class="nav-item mx-2"><a class="nav-link" href="#">Galeria</a>
+				</li>
+
+				<li class="nav-item mx-2"><a class="nav-link" href="#">Contacto
+						Jefatura</a></li>
+
+			</ul>
+			<ul class="d-flex mb-0">
+				<li class="dropdown navbar-nav ms-auto me-5 mx-2">
+
+					<div class="btn-group">
+						<button type="button" class="btn btn-secondary dropdown-toggle boton-usuario"
+							data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fa-solid fa-user-gear"></i></button>
+						<div class="dropdown-menu dropdown-menu-end">
+							<button class="dropdown-item" type="button"><i class="fa-regular fa-circle-user"></i>  Perfil</button>
+							<button class="dropdown-item" type="button"><i class="fa-solid fa-gears"></i> Configuracion</button>
+							<div class="dropdown-divider"></div>
+							
+							<form action="CierreSesion" method="post">
+							<button class="dropdown-item" type="submit" name = "action" value="cerrarSesion"><i class="fa-solid fa-right-from-bracket"></i>  CerrarSesion</button>
+							</form>
+						</div>
+					</div>
+
+
+				</li>
+			</ul>
+
+
+		</div>
+	</div>
+</nav>
