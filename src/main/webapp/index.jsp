@@ -8,6 +8,7 @@
 <title>Home</title>
 <%@include file="assets/html/importHead.html"%>
 <link rel="stylesheet" href="assets/css/styles.css">
+<link rel = "stylesheet" href ="assets/css/stylesNavbar.css">
 </head>
 <body>
 	<%@include file="assets/html/navbar.html"%>

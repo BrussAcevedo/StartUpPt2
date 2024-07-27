@@ -7,6 +7,7 @@
 <title>Registrarse</title>
 <%@include file="assets/html/importHead.html"%>
 <link rel="stylesheet" href="assets/css/stylesVistaFormulario.css">
+<link rel = "stylesheet" href ="assets/css/stylesNavbar.css">
 
 </head>
 <body>

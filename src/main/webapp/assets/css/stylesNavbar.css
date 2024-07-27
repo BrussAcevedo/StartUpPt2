@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.navbar-logo{
+	position: absolute;
+	top: -2%;
+	left:5%;
+	padding-top: 0px;;
+		
+}
+
+.navbar-logo img{
+	width: 200px;
+
+		
+}
+
+.bg-custom{
+	background-color: #007ED5;	
+}
+
+.navbar-collapse{
+	
+	padding-left: 60px;	
+}
+
+@media (min-width: 992px){
+	 .nav-custom-items{
+	 margin-left: 200px;
+	 
+	 }
+}

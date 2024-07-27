@@ -30,17 +30,6 @@ h2{
 }
 
 
-.boton-usuario{
-	background: #34bbd9;
-	border-radius: 25px;
-	border:none;
-}
-
-.boton-usuario:hover{
-	background: aqua;
-	
-	box-shadow: 10px 10px 10px 10px rgba(103, 178, 255, 0.5);
-}
 
 
 .btn:focus, .btn:active {

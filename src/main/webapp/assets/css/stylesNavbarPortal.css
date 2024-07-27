@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+.navbar-logo-custom{
+	position: absolute;
+	top:-2%;
+		left:80%;
+	padding-top:0;
+	
+}
+
+.navbar-logo-custom img{
+	width:200px;
+}
+
+
+
+.boton-usuario{
+	background: #007ED5;
+	border-radius: 25px;
+	border:none;
+	height: 60px;
+	width: 60px;
+}
+
+.boton-usuario:hover{
+	background: aqua;
+	box-shadow: 0px 0px 0px 10px rgba(103, 178, 255, 0.2);
+}
+
+.nav-item{
+	display: flex;
+	vertical-align: center;
+	align-items: center;
+}
+
+@media (max-width: 991px){
+.navbar-logo-custom{
+	left:80%;
+	
+} 
+}
+@media (max-width: 1804px){
+.navbar-logo-custom img {
+	width:100px;
+
+}
+} 
+
+@media (max-width: 1588px){
+.navbar-logo-custom img {
+	width:90px;
+	top:-20%;
+}
+} 
+
+
+
