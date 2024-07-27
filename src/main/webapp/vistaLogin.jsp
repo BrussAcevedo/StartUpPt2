@@ -23,13 +23,13 @@
 
 
 			<div class="inputBox inputBoxFixed">
-				<input type="text" placeholder="Correo Electronico" name ="correoLoginTxt" required> <i
-					class="fa-solid fa-key"></i>
+				<input type="text" placeholder="Correo Electronico" name ="correoLoginTxt" required>
+				<i class="fa-solid fa-user"></i> 
 			</div>
 			
-						<div class="inputBox">
+			<div class="inputBox">
 				<input type="password" placeholder="Contraseña" name ="passwordLoginTxt" required>
-				<i class="fa-solid fa-user"></i>
+				<i class="fa-solid fa-key"></i>
 			</div>
 
 			<div class="remember-forgot">

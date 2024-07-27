@@ -53,7 +53,9 @@ body{
 
 
 .inputBox input:focus{
-	outline: 1px solid rgba(0, 255, 8, 1);
+	border: none;
+	outline: 1px solid rgb(0, 170, 255);
+	box-shadow: 0 0 10px #1388ff;
 }
 
 
@@ -149,8 +151,7 @@ body{
 	border: 2px solid rgba(255, 255, 255, .2);
 	border-radius: 10px;
 	font-size: 16px;
-	color:gray;
-	padding-left: 20px;
+	color:rgb(0, 170, 255);;
 }
 
 .boton-atras button:hover{

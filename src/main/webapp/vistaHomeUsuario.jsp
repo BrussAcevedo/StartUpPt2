@@ -30,7 +30,7 @@
 		<div class="contenido-pagina row mt-5">
 
 			<div class="contenedor-contenido">
-				<h2>
+				<h2 class="pt-2">
 					<i class="fa-regular fa-bell"></i> Notificaciones
 				</h2>
 				<hr>
@@ -44,12 +44,12 @@
 			</div>
 
 			<div class="contenedor-contenido mt-5 ">
-				<h2>
+				<h2 class="pt-2">
 					<i class="fa-regular fa-file-lines"></i> Perfil Usuario
 				</h2>
 				<hr>
 				<div class="row">
-					<div class=" ps-4 col-6">
+					<div class=" ps-5 pt-5 col-6">
 						<p>
 							<i class="fa-regular fa-user"></i> Nombre: ${userName}
 						</p>
@@ -88,10 +88,14 @@
 				<h2>
 					<i class="fa-solid fa-unlock-keyhole"></i> Admin Mode:
 				</h2>
+				<hr>
+				
+				<div class=" d-flex justify-content-center py-2 pb-2">
 				<form action="DatosTrabajadores" method="post">
-					<button type="submit" name="registroUsuarios" value="Administrador">Mostrar
+					<button class ="btn-mostrar-reg r" type="submit" name="registroUsuarios" value="Administrador">Mostrar
 						Informacion Trabajadores</button>
 				</form>
+				</div>
 			
 			<%
 			}
